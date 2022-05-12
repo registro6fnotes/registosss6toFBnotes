@@ -1,0 +1,158 @@
+body{
+    background-color: #ddd;
+    font-family: 'Times New Roman', ;
+}
+
+.container-table{
+    width: 100%;
+    background: white;
+    margin: 70px auto;
+    box-shadow: 0 0  20px #333;
+
+   display: grid;
+   grid-template-columns: repeat(16, 1fr);
+   grid-auto-rows: 70px;
+
+   position: relative;
+}
+
+.table--title{
+    grid-column-start:1 ;
+    grid-column-end:17 ;
+
+    background-color: rgba(41, 65, 120, 1);
+    color: #faf5ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.table__header, .table__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.table__header{
+    font-weight: bold;
+    font-size: 1.0em;
+
+}
+
+.table__item{
+    font-size: 1em;
+
+}
+
+
+.container-add{
+    width: 90%;
+margin: 50px auto ;
+
+}
+
+.container--title{
+    margin: 0;
+    padding: 10px;
+    background-color: burlywood;
+    color: cornsilk;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.container--form{
+    background: white;
+    box-shadow: 0 0 30px #333;
+    padding: 30px;
+    text-align: center;
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.container__label{
+    align-items: center;
+    font-size: 1.2em;
+    width: 60%;
+}
+
+.container__input{
+    width: 20%;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 2px;
+   
+}
+
+.container__submit{
+    font-size: 1.1em;
+    width: 20%;
+    background: navajowhite;
+    color: #000;
+    border: 0;
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+ 
+}
+
+.title-edit{
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+}
+.title-edit:hover {
+    text-decoration: underline;
+}
+
+.container-table-editar{
+    grid-template-columns: repeat(17, 1fr);
+
+    width: 100%;
+    min-width: 100%;
+    grid-auto-rows: 80px;
+}
+
+.table--title--editar{
+    grid-column-start:1 ;
+    grid-column-end:18;
+}
+
+.table__input{
+    height: 15px; 
+    width: 100%;
+ padding:1%;
+ padding-left: 1px;
+
+}
+.table__inpu{
+  height: 15px;
+}
+
+.container-actuali{
+    height: 35%;
+    background: navajowhite;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a input{
+     background: rgb(147, 241, 245);
+    cursor: pointer;
+    border: solid 2px black;
+    font-size: 1.5em;
+}
